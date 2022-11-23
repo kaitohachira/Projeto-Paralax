@@ -1,0 +1,58 @@
+body,html{
+    /*background-color: rgb(72, 124, 124);*/
+    margin: 0;
+    /*border: 1px solid rgb(63, 173, 127);*/
+    height: 100%;
+}
+ .content{
+     color: rgb(0, 0, 0);
+     background-color: rgb(245, 245, 245);
+     text-align: center;
+     padding: 3.12rem 5rem;
+ }
+
+ h3{
+     text-transform: uppercase;
+     color: black;
+
+ }
+ p{
+     margin-bottom: 1.1rem;
+ }
+ 
+.box1, .box2, .box3, .box4{
+       height: 100%;
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       background-attachment: fixed;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       
+
+}
+ 
+
+
+.box1{
+     background-image: url(../img/imagem1.jpg);
+}
+
+.box2{
+    background-image: url(../img/imagem2.jpg);
+}
+
+.box3{
+    background-image: url(../img/imagem3.jpg);
+}
+
+.box4{
+   background-image: url(../img/imagem4.jpg);
+}
+
+.content-box{
+    color: blueviolet;
+    padding: .8rem;
+    background-color: rgb(140, 53, 175);
+}
